@@ -35,10 +35,7 @@
             this.textBox_Dir = new System.Windows.Forms.TextBox();
             this.label_dir = new System.Windows.Forms.Label();
             this.button_Download = new System.Windows.Forms.Button();
-            this.radioButton_Song = new System.Windows.Forms.RadioButton();
-            this.radioButton_Playlist = new System.Windows.Forms.RadioButton();
             this.checkBox_Remember = new System.Windows.Forms.CheckBox();
-            this.radioButton_Album = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.button_Install = new System.Windows.Forms.Button();
             this.button_Credits = new System.Windows.Forms.Button();
@@ -60,9 +57,9 @@
             this.label_link.AutoSize = true;
             this.label_link.Location = new System.Drawing.Point(12, 189);
             this.label_link.Name = "label_link";
-            this.label_link.Size = new System.Drawing.Size(145, 13);
+            this.label_link.Size = new System.Drawing.Size(179, 13);
             this.label_link.TabIndex = 1;
-            this.label_link.Text = "Spotify link to song or playlist:";
+            this.label_link.Text = "Spotify link to song, album or playlist:";
             // 
             // button_Browse
             // 
@@ -103,30 +100,6 @@
             this.button_Download.UseVisualStyleBackColor = true;
             this.button_Download.Click += new System.EventHandler(this.button_Download_Click);
             // 
-            // radioButton_Song
-            // 
-            this.radioButton_Song.AutoSize = true;
-            this.radioButton_Song.Checked = true;
-            this.radioButton_Song.Location = new System.Drawing.Point(12, 78);
-            this.radioButton_Song.Name = "radioButton_Song";
-            this.radioButton_Song.Size = new System.Drawing.Size(50, 17);
-            this.radioButton_Song.TabIndex = 8;
-            this.radioButton_Song.TabStop = true;
-            this.radioButton_Song.Text = "Song";
-            this.radioButton_Song.UseVisualStyleBackColor = true;
-            this.radioButton_Song.CheckedChanged += new System.EventHandler(this.radioButton_Song_CheckedChanged);
-            // 
-            // radioButton_Playlist
-            // 
-            this.radioButton_Playlist.AutoSize = true;
-            this.radioButton_Playlist.Location = new System.Drawing.Point(12, 124);
-            this.radioButton_Playlist.Name = "radioButton_Playlist";
-            this.radioButton_Playlist.Size = new System.Drawing.Size(57, 17);
-            this.radioButton_Playlist.TabIndex = 9;
-            this.radioButton_Playlist.Text = "Playlist";
-            this.radioButton_Playlist.UseVisualStyleBackColor = true;
-            this.radioButton_Playlist.CheckedChanged += new System.EventHandler(this.radioButton_Playlist_CheckedChanged);
-            // 
             // checkBox_Remember
             // 
             this.checkBox_Remember.AutoSize = true;
@@ -137,18 +110,6 @@
             this.checkBox_Remember.Text = "Remember";
             this.checkBox_Remember.UseVisualStyleBackColor = true;
             this.checkBox_Remember.CheckedChanged += new System.EventHandler(this.checkBox_Remember_CheckedChanged);
-            // 
-            // radioButton_Album
-            // 
-            this.radioButton_Album.AutoSize = true;
-            this.radioButton_Album.Location = new System.Drawing.Point(12, 101);
-            this.radioButton_Album.Name = "radioButton_Album";
-            this.radioButton_Album.Size = new System.Drawing.Size(54, 17);
-            this.radioButton_Album.TabIndex = 12;
-            this.radioButton_Album.TabStop = true;
-            this.radioButton_Album.Text = "Album";
-            this.radioButton_Album.UseVisualStyleBackColor = true;
-            this.radioButton_Album.CheckedChanged += new System.EventHandler(this.radioButton_Album_CheckedChanged);
             // 
             // label1
             // 
@@ -207,10 +168,7 @@
             this.Controls.Add(this.button_Credits);
             this.Controls.Add(this.button_Install);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton_Album);
             this.Controls.Add(this.checkBox_Remember);
-            this.Controls.Add(this.radioButton_Playlist);
-            this.Controls.Add(this.radioButton_Song);
             this.Controls.Add(this.button_Download);
             this.Controls.Add(this.label_dir);
             this.Controls.Add(this.textBox_Dir);
@@ -236,10 +194,7 @@
         private System.Windows.Forms.TextBox textBox_Dir;
         private System.Windows.Forms.Label label_dir;
         private System.Windows.Forms.Button button_Download;
-        private System.Windows.Forms.RadioButton radioButton_Song;
-        private System.Windows.Forms.RadioButton radioButton_Playlist;
         private System.Windows.Forms.CheckBox checkBox_Remember;
-        private System.Windows.Forms.RadioButton radioButton_Album;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button_Install;
         private System.Windows.Forms.Button button_Credits;

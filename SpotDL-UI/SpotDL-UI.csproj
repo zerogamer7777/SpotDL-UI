@@ -7,7 +7,7 @@
     <ProjectGuid>{D19A3534-C3B8-41A2-8E52-41B3310D562A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SpotDL_UI</RootNamespace>
-    <AssemblyName>SpotDL</AssemblyName>
+    <AssemblyName>SpotDL-UI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
